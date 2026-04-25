@@ -1,0 +1,2 @@
+ppa:danielrichter2007/grub-customizer
+ppa:tomtomtom/conky-manager

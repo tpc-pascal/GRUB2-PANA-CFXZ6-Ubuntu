@@ -1,0 +1,194 @@
+[apps/update-manager]
+first-run=false
+launch-count=4
+launch-time=int64 1776978554
+
+[com/ubuntu/update-notifier]
+release-check-time=uint32 1776122960
+
+[org/gnome/cheese]
+burst-delay=1000
+camera='USB HD Webcam'
+photo-x-resolution=1920
+photo-y-resolution=1080
+video-x-resolution=1920
+video-y-resolution=1080
+
+[org/gnome/control-center]
+last-panel='wifi'
+
+[org/gnome/deja-dup]
+backend='google'
+prompt-check='2026-04-15T00:08:15.963503Z'
+
+[org/gnome/desktop/a11y]
+always-show-universal-access-status=true
+
+[org/gnome/desktop/a11y/applications]
+screen-keyboard-enabled=false
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST', 'b416ab5b-ab5c-4ab6-ba9b-f61e7d60cb87', '5dbc8dca-bf0f-408e-8387-b8b87c2e81f3']
+
+[org/gnome/desktop/app-folders/folders/5dbc8dca-bf0f-408e-8387-b8b87c2e81f3]
+apps=['libreoffice-calc.desktop', 'libreoffice-writer.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop']
+name='Office'
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/b416ab5b-ab5c-4ab6-ba9b-f61e7d60cb87]
+apps=['sol.desktop', 'org.gnome.Sudoku.desktop', 'org.gnome.Mahjongg.desktop', 'org.gnome.Mines.desktop']
+name='Games'
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/tpc-pascal/Pictures/Wallpapers/pascal_background.png'
+picture-uri-dark='file:///home/tpc-pascal/Pictures/Wallpapers/pascal_background.png'
+primary-color='#000000'
+secondary-color='#000000'
+
+[org/gnome/desktop/input-sources]
+per-window=false
+sources=[('xkb', 'us'), ('xkb', 'jp')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+cursor-size=32
+gtk-theme='Yaru-blue-dark'
+icon-theme='Yaru-blue'
+show-battery-percentage=true
+toolkit-accessibility=false
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-nautilus', 'org-gnome-dejadup', 'gnome-network-panel']
+
+[org/gnome/desktop/notifications/application/gnome-network-panel]
+application-id='gnome-network-panel.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-dejadup]
+application-id='org.gnome.DejaDup.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/peripherals/touchpad]
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+report-technical-problems=true
+
+[org/gnome/desktop/screensaver]
+lock-delay=uint32 0
+
+[org/gnome/desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[org/gnome/desktop/session]
+idle-delay=uint32 600
+
+[org/gnome/desktop/wm/keybindings]
+close=['<Shift>F1']
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/gedit/plugins]
+active-plugins=['openlinks', 'docinfo', 'spell', 'filebrowser', 'modelines', 'sort']
+
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/tpc-pascal/REPO/configs'
+
+[org/gnome/gedit/preferences/editor]
+scheme='Yaru-dark'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(1080, 571)
+state=43908
+
+[org/gnome/gnome-session]
+logout-prompt=false
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+maximized=false
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Alt>F4'
+command='/home/tpc-pascal/power_menu.sh'
+name='Power Menu'
+
+[org/gnome/settings-daemon/plugins/power]
+ambient-enabled=false
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/shell]
+app-picker-layout=[{'b416ab5b-ab5c-4ab6-ba9b-f61e7d60cb87': <{'position': <0>}>, 'software-properties-drivers.desktop': <{'position': <1>}>, 'org.gnome.Calendar.desktop': <{'position': <2>}>, 'gnome-language-selector.desktop': <{'position': <3>}>, 'libreoffice-startcenter.desktop': <{'position': <4>}>, '5dbc8dca-bf0f-408e-8387-b8b87c2e81f3': <{'position': <5>}>, 'org.gnome.Totem.desktop': <{'position': <6>}>, 'org.gnome.Calculator.desktop': <{'position': <7>}>, 'org.gnome.gedit.desktop': <{'position': <8>}>, 'simple-scan.desktop': <{'position': <9>}>, 'gnome-system-monitor.desktop': <{'position': <10>}>, 'org.gnome.Terminal.desktop': <{'position': <11>}>, 'Utilities': <{'position': <12>}>, 'yelp.desktop': <{'position': <13>}>, 'org.gnome.Cheese.desktop': <{'position': <14>}>, 'org.gnome.PowerStats.desktop': <{'position': <15>}>, 'org.remmina.Remmina.desktop': <{'position': <16>}>, 'gnome-control-center.desktop': <{'position': <17>}>}, {'shotwell.desktop': <{'position': <0>}>, 'software-properties-gtk.desktop': <{'position': <1>}>, 'update-manager.desktop': <{'position': <2>}>, 'gnome-session-properties.desktop': <{'position': <3>}>, 'usb-creator-gtk.desktop': <{'position': <4>}>, 'org.gnome.Todo.desktop': <{'position': <5>}>, 'transmission-gtk.desktop': <{'position': <6>}>, 'rhythmbox.desktop': <{'position': <7>}>, 'snap-store_ubuntu-software.desktop': <{'position': <8>}>, 'thunderbird.desktop': <{'position': <9>}>}]
+favorite-apps=['firefox_firefox.desktop', 'org.gnome.Nautilus.desktop', 'grub-customizer.desktop', 'conky-manager2.desktop', 'org.gnome.Terminal.desktop']
+welcome-dialog-last-shown-version='42.9'
+
+[org/gnome/shell/extensions/dash-to-dock]
+dock-position='BOTTOM'
+extend-height=false
+show-mounts=false
+
+[org/gnome/shell/extensions/ding]
+show-home=false
+start-corner='top-left'
+
+[org/gnome/system/location]
+enabled=false
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=173
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-size=(867, 374)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=161
+sort-column='name'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+window-position=(26, 23)
+window-size=(1080, 571)
